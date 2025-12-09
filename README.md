@@ -9,7 +9,7 @@ A lightweight FastAPI server for running local language models — optimized for
 - **Main file:** `server.py`  
 - **Device:** NVIDIA Jetson AGX Orin (or any CUDA-capable device for GPU acceleration; CPU fallback supported)  
 - **Model:** Any small-to-medium language model from [Hugging Face](https://huggingface.co/) or a locally stored model
-- Model used for initial implementation: https://huggingface.co/bladebreaker17/finetuned_quantized_model_for_server_test/tree/main
+- Model used for initial implementation (A finetuned and quantized version of OPT. The model was finetuned on a publicly available Tesla car manual PDF.): https://huggingface.co/bladebreaker17/finetuned_quantized_model_for_server_test/tree/main
 
 By default, the model directory should be named `finetuned`, but you can change this in `server.py`.
 
